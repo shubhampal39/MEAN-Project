@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+<body>
+    <p>Welcome to <%= title %></p>
+
+<form name="loginForm" method="post" action="/index">
+<table width="20%" bgcolor="0099CC" align="center">
+
+<tr>
+<td colspan=2><center><font size=4><b>HTML Login Page</b></font></center></td>
+</tr>
+
+<tr>
+<td>Username:</td>
+<td><input type="text" size=25 name="uname" placeholder="Enter ur name"></td>
+</tr>
+
+<tr>
+<td>Password:</td>
+<td><input type="Password" size=25 name="password" placeholder="Ente yout password"></td>
+</tr>
+
+<tr>
+<td><input type="submit" name="submit" value="login"></td>
+</tr>
+
+</table>
+</form>
+<p>If u dont have an account <a href="/signup">Create new account</a></p>
+</body>
+</html>
